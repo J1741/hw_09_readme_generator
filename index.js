@@ -34,7 +34,7 @@ function init() {
     const markdownContent = generate.generateMarkdown(data);
     console.log(markdownContent);
 
-    fs.writeFile('test.md', markdownContent, (err) =>
+    fs.writeFile('./output/README.md', markdownContent, (err) =>
     err ? console.log(err) : console.log('Successfully wrote README file')
     );
         
