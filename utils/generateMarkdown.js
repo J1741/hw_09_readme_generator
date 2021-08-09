@@ -15,7 +15,32 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ## Description
 ${data.description}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+### Requirements
+
+### Steps
+
+## Usage
+
+## License
+This software is licensed under the ${data.license}
+
+## Contributing
+
+## Tests
+
+## Questions
+
 `;
+
 }
 
 // module.exports = generateMarkdown;

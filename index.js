@@ -17,6 +17,13 @@ const questions = [
     name: 'description',
     message: 'Please provide a description of the application:',
   },
+  // project license 
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Please select a license for the application',
+    choices: ['Apache 2.0 License', 'The MIT License', 'Mozilla Public License 2.0'],
+  },
 ];
 
 // TODO: Create a function to write README file (SKIPPED)
@@ -37,7 +44,7 @@ function init() {
     fs.writeFile('./output/README.md', markdownContent, (err) =>
     err ? console.log(err) : console.log('Successfully wrote README file')
     );
-        
+    
   });
 };
 
