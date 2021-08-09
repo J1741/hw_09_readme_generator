@@ -66,9 +66,12 @@ Or via email: jseventeen41@gmail.com
 ## Application Demo Video and Sample File
 
 ### Demo Video
-A demo of the application can be viewed here (NB: for best resolution, view the demo video in full screen):
+A demo of the application can be viewed here (NB: For best resolution, view the demo video in full screen): 
 https://drive.google.com/file/d/1JzOJCUyQMwKzn15HDHpVl8nDsCdmL1Kn/view
 
 ### Sample File
-A `sample_README.md` file created with the Readme Generator application can be viewed on Google Drive:
+A `sample_README.md` file created with the Readme Generator application can be viewed on GitHub:
+https://github.com/J1741/hw_09_readme_generator/blob/main/output/sample_README.md
+
+Or on Google Drive (NB: This file is slower to load):
 https://drive.google.com/file/d/1sNXH-UtNERPagPh5Yem3WLtw6N6CP4nU/view?usp=sharing
