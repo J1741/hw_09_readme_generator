@@ -19,8 +19,9 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// TODO: Create a function to write README file (SKIPPED)
+// function writeToFile(fileName, data) {}
+
 
 // TODO: Create a function to initialize app (IN PROGRESS)
 function init() {
@@ -28,9 +29,15 @@ function init() {
   .then((data) => {
     console.log("In then block!");
     console.log("Here's the data", data);
+    
     console.log("We've imported:", generate.generateMarkdown);
     const markdownContent = generate.generateMarkdown(data);
     console.log(markdownContent);
+
+    fs.writeFile('test.md', markdownContent, (err) =>
+    err ? console.log(err) : console.log('Successfully wrote README file')
+    );
+        
   });
 };
 
