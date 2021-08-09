@@ -25,20 +25,42 @@ ${data.description}
 
 ## Installation
 ### Requirements
+${data.requirements}
 
 ### Steps
+Step 1. Clone the project repo here: ${data.repoURL}
+
+Step 2. Run the following command in ${data.installLoc}:
+${data.installCmd}
 
 ## Usage
+After you have completed installation, do the following to launch the ${data.title} application:
+
+Step 1. Open a terminal and navigate to ${data.launchLoc}
+
+Step 2. Run the following command there:
+${data.launchCmd}
+
+Step 3. While the application is running, ${data.userActions}
+
+Step 4. Once the application has finished running, ${data.userExpectations}
 
 ## License
-This software is licensed under the ${data.license}
+Copyright (c) 2021 ${data.username}\n
+This software is licensed under the ${data.license}.
 
 ## Contributing
+Contributions to the ${data.title} project are welcome!
+
+The project repo can be forked here: ${data.repoURL}
 
 ## Tests
+${data.tests}
 
 ## Questions
+Questions and inquiries about the ${data.title} project can be directed to the developer via GitHub: https://github.com/${data.username}
 
+Or via email: ${data.email}
 `;
 
 }
